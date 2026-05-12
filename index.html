@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1A3021">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<title>Кухня та бар &mdash; Замовлення</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Serif+Pro:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --accent: #1A3021; --accent-dim: #2a4632; --accent-soft: #5F6F64;
+  --cream: #FCF9F1; --white: #FFFFFF; --text: #000000;
+  --text-dim: #595959; --text-mute: #707070;
+  --border: rgba(95,111,100,0.25); --shadow: rgba(26,48,33,0.08);
+}
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+html, body { height:100%; background:var(--cream); color:var(--text); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased; }
+body { display:flex; align-items:center; justify-content:center; padding:24px; min-height:100vh; }
+.wrap { width:100%; max-width:480px; display:flex; flex-direction:column; align-items:center; gap:36px; }
+.brand { display:flex; flex-direction:column; align-items:center; gap:16px; text-align:center; }
+.brand-mark { width:96px; height:96px; border-radius:16px; overflow:hidden; box-shadow:0 4px 16px var(--shadow); }
+.brand-mark svg { width:100%; height:100%; display:block; }
+.brand-name { font-family:'Playfair Display',serif; font-size:32px; font-weight:600; font-style:italic; color:var(--accent); letter-spacing:0.01em; }
+.brand-sub { font-family:'Source Serif Pro',serif; font-size:12px; font-weight:400; letter-spacing:0.22em; text-transform:uppercase; color:var(--text-mute); }
+.terminals { width:100%; display:flex; flex-direction:column; gap:12px; }
+.terminal-link { display:flex; align-items:center; gap:16px; background:var(--white); border:1px solid var(--border); border-radius:14px; padding:18px 20px; text-decoration:none; color:var(--text); transition:transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; box-shadow:0 1px 3px var(--shadow); }
+.terminal-link:hover { transform:translateY(-2px); box-shadow:0 4px 16px var(--shadow); border-color:var(--accent-soft); }
+.terminal-link:active { transform:translateY(0); }
+.terminal-icon { width:44px; height:44px; border-radius:12px; background:var(--accent); color:var(--cream); display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-size:22px; font-weight:700; flex-shrink:0; }
+.terminal-info { flex:1; display:flex; flex-direction:column; gap:3px; }
+.terminal-title { font-size:16px; font-weight:600; color:var(--text); }
+.terminal-meta { font-family:'Source Serif Pro',serif; font-size:11px; font-weight:400; letter-spacing:0.18em; text-transform:uppercase; color:var(--text-mute); }
+.terminal-arrow { font-size:18px; color:var(--accent-soft); }
+footer { font-size:11px; color:var(--text-mute); text-align:center; letter-spacing:0.08em; text-transform:uppercase; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">
+    <div class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="none" viewBox="0 0 48 48"><rect width="48" height="48" fill="#fcf9f1" rx="8"/><path fill="#1A3021" fill-rule="evenodd" d="M38 15.5h-1.356q-.341.165-.456.572-.13.432-.13 1.373v12.61q0 .915.13 1.373.013.037.028.072H38V33H10v-1.58q.835-.049 1.254-.194a.88.88 0 0 0 .59-.581q.059-.182.094-.44.002-.075.003-.153v-12.61q0-.941-.155-1.374a.85.85 0 0 0-.466-.568H10V14h28zM16.059 30.052q0 .903.126 1.361l.085.007v.08h4.45q-.495-.585-.787-1.873l-.689-3.005a11.6 11.6 0 0 0-.517-1.768 2.37 2.37 0 0 0-.933-1.164q-.599-.407-1.735-.432zM23.203 15.5q-.249.104-.492.243-.712.39-1.426 1.26l-4.637 5.808q.94.05 1.785.25 1.155.266 1.966 1.017.812.75 1.157 2.23l.713 3.052q.27 1.114.49 1.575.222.436.764.412.417-.026.688-.267.094-.078.19-.175v-.31q0-2.481.273-4.105.273-1.622.73-2.545.471-.954 1.034-1.337.093-.06.188-.113v-3.42q0-.4-.066-.583a.36.36 0 0 0-.238-.259q-.173-.075-.51-.085v-.216q.282.01.727.021a42 42 0 0 0 2.624-.021v.216q-.346.01-.531.085a.36.36 0 0 0-.229.26q-.054.182-.053.581v3.303q.28.116.536.327.593.478 1.018 1.432.426.955.654 2.419.243 1.431.243 3.34 0 .501-.013 1.605h.975l.023-.072q.155-.458.155-1.372v-12.61q0-.942-.155-1.374a.85.85 0 0 0-.476-.572zm-6.57 0q-.332.166-.445.568-.13.432-.13 1.373v4.904a4.1 4.1 0 0 0 1.12-.956l2.361-2.956q.811-1.018 1.106-1.72.296-.703-.024-1.067a.8.8 0 0 0-.17-.146z" clip-rule="evenodd"/></svg></div>
+    <div>
+      <div class="brand-name">Кухня &amp; бар</div>
+      <div class="brand-sub">Замовлення &middot; Demo</div>
+    </div>
+  </div>
+
+  <div class="terminals">
+    <a href="bar" class="terminal-link">
+      <div class="terminal-icon">Б</div>
+      <div class="terminal-info">
+        <div class="terminal-title">Бар</div>
+        <div class="terminal-meta">Bar terminal</div>
+      </div>
+      <div class="terminal-arrow">&#8594;</div>
+    </a>
+    <a href="restaurant" class="terminal-link">
+      <div class="terminal-icon">Р</div>
+      <div class="terminal-info">
+        <div class="terminal-title">Ресторан</div>
+        <div class="terminal-meta">Restaurant terminal</div>
+      </div>
+      <div class="terminal-arrow">&#8594;</div>
+    </a>
+  </div>
+
+  <footer>SmartOrder &middot; Hackathon Demo &middot; 18.05</footer>
+
+</div>
+</body>
+</html>
