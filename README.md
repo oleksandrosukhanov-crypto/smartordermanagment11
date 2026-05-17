@@ -6,7 +6,7 @@
 **🌐 Термінал персоналу:** [smartorder-demo-kohl.vercel.app](https://smartorder-demo-kohl.vercel.app/)  
 **🤖 Telegram-бот:** [@orderchef_kb_bot](https://t.me/orderchef_kb_bot)  
 **📢 Демо-канал замовлень:** [@smartorderstest22](https://t.me/smartorderstest22)  
-**📊 Pitch Deck:** [Переглянути презентацію](./pitch-deck.pdf)  
+**📊 Pitch Deck:** [Переглянути презентацію](./Pitch_Deck_-_team_11.pdf)
 **🎥 Demo відео:** [Дивитись на Google Drive](https://drive.google.com/file/d/1HWAoYBa6VpN7tHv65nDmt90PK4rWWZXV/view?usp=sharing)
 
 ---
