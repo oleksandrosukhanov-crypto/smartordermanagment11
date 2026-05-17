@@ -5,7 +5,9 @@
 
 **🌐 Термінал персоналу:** [smartorder-demo-kohl.vercel.app](https://smartorder-demo-kohl.vercel.app/)  
 **🤖 Telegram-бот:** [@orderchef_kb_bot](https://t.me/orderchef_kb_bot)  
-**📢 Демо-канал замовлень:** [@smartorderstest22](https://t.me/smartorderstest22)
+**📢 Демо-канал замовлень:** [@smartorderstest22](https://t.me/smartorderstest22)  
+**📊 Pitch Deck:** [Переглянути презентацію](./pitch-deck.pdf)  
+**🎥 Demo відео:** [Дивитись на Google Drive](https://drive.google.com/file/d/1HWAoYBa6VpN7tHv65nDmt90PK4rWWZXV/view?usp=sharing)
 
 ---
 
@@ -83,12 +85,22 @@ SmartOrder — це two-sided інструмент: **термінал для п
 ├── bar.html               # Термінал для бару
 ├── restaurant.html        # Термінал для ресторану
 ├── index.html             # Лендінг з посиланнями на термінали
+├── pitch-deck.pdf         # Презентація проекту
 └── README.md
 ```
-
 
 ---
 
 ## Команда
 
-
+| | Імʼя | Роль |
+|---|---|---|
+| | **Юрій Ухорський** | FullStack розробник |
+| | **Олександр Суханов** | AI & Automation / n8n |
+| | **Віталій Бурорічний** | AI & Automation / n8n |
+| | **Олександр Караман** | Data Analyst |
+| | **Христина Потоцька** | Data Analyst |
+| | **Наталя Федотова** | Data Analyst |
+| | **Діна Ревва** | AI Content Creator |
+| | **Наталія Самойленко** | UX/UI Designer |
+| | **Даниїл Кучеренко** | Data Science |
